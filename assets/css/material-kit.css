@@ -2653,11 +2653,15 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -2665,6 +2669,8 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+
 }
 
 @media (max-width: 991.98px) {
@@ -27917,3 +27923,6 @@ pre[class*="language-"] {
 }
 
 /*# sourceMappingURL=kit-free.css.map */
+.card.card-blog .card-image .img {
+  width: 100%;
+}
